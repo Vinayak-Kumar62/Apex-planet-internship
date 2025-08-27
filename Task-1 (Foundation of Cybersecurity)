@@ -1,3 +1,5 @@
+Cybersecurity Basics
+
 CIA Triad 
 
 1) Confidentiality
@@ -85,6 +87,8 @@ Attack Vectors
   •Can be intentional (malicious insider) or accidental (negligence).
 
 
+
+
 Steps to Set Up Lab
 
 1) Install VirtualBox
@@ -123,6 +127,8 @@ Steps to Set Up Lab
     ping <target IP>
 
   •Successful replies confirm the lab is ready.
+
+
 
 
 Linux Fundamentals
@@ -252,6 +258,8 @@ Linux Fundamentals
   man – Show manual pages for commands.
 
 
+
+
 Networking Basics
 
 1) OSI Model Layers & Functions
@@ -306,13 +314,18 @@ Networking Basics
 
   •Firewall: Filters traffic based on rules.
 
-6) Symmetric vs Asymmetric Encryption
+
+
+
+Cryptography Basics
+
+1) Symmetric vs Asymmetric Encryption
 
   •Symmetric Encryption: Same key for encryption and decryption (AES, DES).
 
   •Asymmetric Encryption: Public key encrypts, private key decrypts (RSA, ECC).
 
-7) Hashing (MD5, SHA-256)
+2) Hashing (MD5, SHA-256)
 
   •Purpose: Converts data into a fixed-size hash; one-way function.
 
@@ -320,13 +333,13 @@ Networking Basics
 
   •SHA-256: 256-bit, more secure and widely used.
 
-8) Digital Certificates & SSL/TLS
+3) Digital Certificates & SSL/TLS
 
   •Digital Certificate: Proof of website identity issued by a Certificate Authority (CA).
 
   •SSL/TLS: Protocols for encrypting data between client and server; ensures confidentiality, integrity, authentication.
 
-9) Hands-On: Encrypt and Decrypt Using OpenSSL
+4) Hands-On: Encrypt and Decrypt Using OpenSSL
 
   •Encrypt a file:
 
@@ -339,6 +352,8 @@ Networking Basics
   •Generate Hash:
 
      openssl dgst -sha256 file.txt
+
+
 
 
 Tools
@@ -404,5 +419,6 @@ Tools
 
       nc -l -p 1234
     (Listens on port 1234 for incoming connections.)
+
 
 
