@@ -248,3 +248,156 @@ Archiving and Compression
   history – Show command history.
 
   man – Show manual pages for commands.
+
+
+OSI Model Layers & Functions
+
+  •Physical Layer – Deals with hardware, cables, and data transmission (bits).
+
+  •Data Link Layer – Handles MAC addressing, frames, and error detection (Ethernet, switches).
+
+  •Network Layer – Responsible for logical addressing and routing (IP, routers).
+
+  •Transport Layer – Provides reliable data delivery (TCP, UDP, ports).
+
+  •Session Layer – Manages sessions between applications.
+
+  •Presentation Layer – Translates, encrypts, and formats data.
+
+  •Application Layer – Interface for user applications (HTTP, FTP, DNS).
+
+TCP/IP Protocol Suite
+
+  •Application Layer – Protocols like HTTP, DNS, SMTP.
+
+  •Transport Layer – TCP (reliable), UDP (fast, connectionless).
+
+  •Internet Layer – IP addressing, ICMP (ping).
+
+  •Network Access Layer – Handles physical data transmission.
+
+DNS & HTTP/HTTPS 
+
+  •DNS (Domain Name System) – Converts domain names to IP addresses.
+
+  •HTTP (HyperText Transfer Protocol) – Transfers web data in plain text.
+
+  •HTTPS (Secure HTTP) – Encrypted using SSL/TLS for confidentiality and integrity.
+
+  •How it works: Browser → DNS query → Server IP resolved → HTTP/HTTPS request sent → Server response.
+
+IP Addressing, Subnetting, and NAT
+
+  •IP Addressing: IPv4 (32-bit), IPv6 (128-bit).
+
+  •Subnetting: Divides networks into smaller sub-networks to optimize IP usage and security.
+
+  •NAT (Network Address Translation): Maps private IPs to public IPs for internet access, hides internal network.
+
+Networking Basics
+
+  •Switch vs Router: Switch connects devices in a LAN; Router connects networks.
+
+  •Ports: Logical endpoints (e.g., 80 – HTTP, 443 – HTTPS).
+
+  •Firewall: Filters traffic based on rules.
+
+Symmetric vs Asymmetric Encryption
+
+  •Symmetric Encryption: Same key for encryption and decryption (AES, DES).
+
+  •Asymmetric Encryption: Public key encrypts, private key decrypts (RSA, ECC).
+
+Hashing (MD5, SHA-256)
+
+  •Purpose: Converts data into a fixed-size hash; one-way function.
+
+  •MD5: 128-bit, older, less secure.
+
+  •SHA-256: 256-bit, more secure and widely used.
+
+Digital Certificates & SSL/TLS
+
+  •Digital Certificate: Proof of website identity issued by a Certificate Authority (CA).
+
+  •SSL/TLS: Protocols for encrypting data between client and server; ensures confidentiality, integrity, authentication.
+
+Hands-On: Encrypt and Decrypt Using OpenSSL
+
+  •Encrypt a file:
+
+     openssl enc -aes-256-cbc -salt -in file.txt -out file.enc
+
+  •Decrypt a file:
+
+     openssl enc -aes-256-cbc -d -in file.enc -out file.txt
+
+  •Generate Hash:
+
+     openssl dgst -sha256 file.txt
+
+Tools
+
+1) Wireshark (Packet Capture)
+
+   •Purpose: Network protocol analyzer used to capture and inspect packets in real time.
+
+ - Key Uses:
+
+   •Analyze network traffic.
+
+   •Troubleshoot connectivity issues.
+
+   •Detect suspicious activity or attacks.
+
+   •Example: Capture HTTP requests, DNS queries, or TCP handshakes.
+
+2) Nmap (Network Scanning)
+
+   •Purpose: Network mapping and vulnerability scanning tool.
+
+ - Key Uses:
+
+   •Discover devices on a network.
+
+   •Identify open ports and services.
+
+   •Detect OS and version information.
+
+   •Example Command:
+
+      nmap -sV 192.168.1.1/24
+    (Scans the network for active hosts and service versions.)
+
+3) Burp Suite (Web Proxy)
+
+   •Purpose: Web application security testing tool.
+
+ - Key Uses:
+
+   •Intercept and modify HTTP/HTTPS traffic.
+
+   •Perform vulnerability scanning on web apps.
+
+   •Test for SQL injection, XSS, and other flaws.
+
+   •Components: Proxy, Repeater, Intruder, Scanner.
+
+4) Netcat (Network Debugging)
+
+   •Purpose: Versatile tool for reading and writing data across network connections.
+
+ - Key Uses:
+
+   •Create TCP/UDP connections.
+
+   •Test open ports.
+
+   •File transfers and simple chat servers.
+
+   •Example Command:
+
+      nc -l -p 1234
+    (Listens on port 1234 for incoming connections.)
+
+
