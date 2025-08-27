@@ -125,7 +125,9 @@ Steps to Set Up Lab
   •Successful replies confirm the lab is ready.
 
 
-File and Directory Management
+Linux Fundamentals
+
+1) File and Directory Management
 
   cd – Change directory.
 
@@ -157,7 +159,7 @@ File and Directory Management
 
   locate – Quickly find files by name.
 
-  User and Permission Management
+2) User and Permission Management
 
   whoami – Display current user.
 
@@ -175,7 +177,7 @@ File and Directory Management
 
   sudo – Execute a command with superuser privileges.
 
-File Viewing and Editing
+3) File Viewing and Editing
 
   chmod – Change file permissions.
 
@@ -185,13 +187,13 @@ File Viewing and Editing
 
   vi / vim – Advanced text editor.
 
-Package Management
+4) Package Management
 
   apt – Advanced package tool for installing and managing software.
 
   dpkg – Low-level package manager for Debian-based systems.
 
-System Monitoring and Management
+5) System Monitoring and Management
 
   top / htop – Monitor running processes and resource usage.
 
@@ -207,7 +209,7 @@ System Monitoring and Management
 
   free – Display memory usage.
 
-Networking and Connectivity
+6) Networking and Connectivity
 
   ifconfig – View or configure network interfaces.
 
@@ -229,7 +231,7 @@ Networking and Connectivity
 
   ftp / sftp – File transfer protocols.
 
-Archiving and Compression
+7) Archiving and Compression
 
   tar – Archive files (tar -cvf, tar -xvf).
 
@@ -250,7 +252,9 @@ Archiving and Compression
   man – Show manual pages for commands.
 
 
-OSI Model Layers & Functions
+Networking Basics
+
+1) OSI Model Layers & Functions
 
   •Physical Layer – Deals with hardware, cables, and data transmission (bits).
 
@@ -266,7 +270,7 @@ OSI Model Layers & Functions
 
   •Application Layer – Interface for user applications (HTTP, FTP, DNS).
 
-TCP/IP Protocol Suite
+2) TCP/IP Protocol Suite
 
   •Application Layer – Protocols like HTTP, DNS, SMTP.
 
@@ -276,7 +280,7 @@ TCP/IP Protocol Suite
 
   •Network Access Layer – Handles physical data transmission.
 
-DNS & HTTP/HTTPS 
+3) DNS & HTTP/HTTPS 
 
   •DNS (Domain Name System) – Converts domain names to IP addresses.
 
@@ -286,7 +290,7 @@ DNS & HTTP/HTTPS
 
   •How it works: Browser → DNS query → Server IP resolved → HTTP/HTTPS request sent → Server response.
 
-IP Addressing, Subnetting, and NAT
+4) IP Addressing, Subnetting, and NAT
 
   •IP Addressing: IPv4 (32-bit), IPv6 (128-bit).
 
@@ -294,7 +298,7 @@ IP Addressing, Subnetting, and NAT
 
   •NAT (Network Address Translation): Maps private IPs to public IPs for internet access, hides internal network.
 
-Networking Basics
+5) Networking devices
 
   •Switch vs Router: Switch connects devices in a LAN; Router connects networks.
 
@@ -302,13 +306,13 @@ Networking Basics
 
   •Firewall: Filters traffic based on rules.
 
-Symmetric vs Asymmetric Encryption
+6) Symmetric vs Asymmetric Encryption
 
   •Symmetric Encryption: Same key for encryption and decryption (AES, DES).
 
   •Asymmetric Encryption: Public key encrypts, private key decrypts (RSA, ECC).
 
-Hashing (MD5, SHA-256)
+7) Hashing (MD5, SHA-256)
 
   •Purpose: Converts data into a fixed-size hash; one-way function.
 
@@ -316,13 +320,13 @@ Hashing (MD5, SHA-256)
 
   •SHA-256: 256-bit, more secure and widely used.
 
-Digital Certificates & SSL/TLS
+8) Digital Certificates & SSL/TLS
 
   •Digital Certificate: Proof of website identity issued by a Certificate Authority (CA).
 
   •SSL/TLS: Protocols for encrypting data between client and server; ensures confidentiality, integrity, authentication.
 
-Hands-On: Encrypt and Decrypt Using OpenSSL
+9) Hands-On: Encrypt and Decrypt Using OpenSSL
 
   •Encrypt a file:
 
@@ -335,6 +339,7 @@ Hands-On: Encrypt and Decrypt Using OpenSSL
   •Generate Hash:
 
      openssl dgst -sha256 file.txt
+
 
 Tools
 
