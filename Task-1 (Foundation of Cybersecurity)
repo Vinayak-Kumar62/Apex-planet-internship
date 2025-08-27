@@ -24,6 +24,7 @@ CIA Triad
 
   •Violations: DDoS attacks, server crashes, ransomware locking access.
 
+
 Common Cyber Threat Types
 
 1) Phishing
@@ -62,6 +63,7 @@ Common Cyber Threat Types
 
   •Example: WannaCry ransomware attack.
 
+
 Attack Vectors
 
 1) Social Engineering
@@ -81,6 +83,7 @@ Attack Vectors
   •Attacks or leaks from employees, contractors, or trusted individuals.
 
   •Can be intentional (malicious insider) or accidental (negligence).
+
 
 Steps to Set Up Lab
 
@@ -120,5 +123,6 @@ Steps to Set Up Lab
     ping <target IP>
 
   •Successful replies confirm the lab is ready.
+
 
 
