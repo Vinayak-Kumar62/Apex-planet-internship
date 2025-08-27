@@ -125,4 +125,126 @@ Steps to Set Up Lab
   •Successful replies confirm the lab is ready.
 
 
+File and Directory Management
 
+  cd – Change directory.
+
+  ls – List files and directories.
+
+  pwd – Print working directory.
+
+  touch – Create an empty file.
+
+  mkdir – Create a new directory.
+
+  rmdir – Remove an empty directory.
+
+  rm – Remove files or directories.
+
+  cp – Copy files or directories.
+
+  mv – Move or rename files/directories.
+
+  cat – View contents of a file.
+
+  more/less – View large files page by page.
+
+  head – View the first few lines of a file.
+
+  tail – View the last few lines of a file (use tail -f to follow logs).
+
+  find – Search for files and directories.
+
+  locate – Quickly find files by name.
+
+  User and Permission Management
+
+  whoami – Display current user.
+
+  id – Show user and group IDs.
+
+  groups – List groups a user belongs to.
+
+  adduser / useradd – Create a new user.
+
+  passwd – Change user password.
+
+  usermod – Modify user properties.
+
+  groupadd – Create a new group.
+
+  sudo – Execute a command with superuser privileges.
+
+File Viewing and Editing
+
+  chmod – Change file permissions.
+
+  chown – Change file owner and group.
+
+  nano – Simple text editor.
+
+  vi / vim – Advanced text editor.
+
+Package Management
+
+  apt – Advanced package tool for installing and managing software.
+
+  dpkg – Low-level package manager for Debian-based systems.
+
+System Monitoring and Management
+
+  top / htop – Monitor running processes and resource usage.
+
+  ps – List running processes.
+
+  kill / killall – Terminate processes.
+
+  uptime – Show system running time.
+
+  df – Check disk space usage.
+
+  du – Show directory and file sizes.
+
+  free – Display memory usage.
+
+Networking and Connectivity
+
+  ifconfig – View or configure network interfaces.
+
+  ping – Test network connectivity.
+
+  netstat – Display network connections and ports.
+
+  traceroute – Show the path packets take to a destination.
+
+  ip addr / ip link – Manage IP addresses and network interfaces (modern replacement for ifconfig).
+
+  curl – Transfer data from or to a server.
+
+  wget – Download files from the web.
+
+  ssh – Connect to another system securely.
+
+  scp – Securely copy files between systems.
+
+  ftp / sftp – File transfer protocols.
+
+Archiving and Compression
+
+  tar – Archive files (tar -cvf, tar -xvf).
+
+  gzip / gunzip – Compress and decompress files.
+
+  zip / unzip – Create and extract ZIP archives.
+
+  System Information and Utilities
+
+  uname -a – Display system information.
+
+  hostname – Show or set the system hostname.
+
+  date – Display or set system date and time.
+
+  history – Show command history.
+
+  man – Show manual pages for commands.
